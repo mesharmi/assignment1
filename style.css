@@ -22,12 +22,17 @@ body{
 .centered h1{
     display:flex;
     font-size: 50px;
-    font-weight:900;
+   text-decoration: none;
     text-align: center;
+}
+.centered h3{
+   
+    text-transform: capitalize;
+   
 }
 .link-button{
     position: absolute;
-    top: 110%;
+    top: 150%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -115,11 +120,14 @@ h3{
     color: gray;
 }
 .flexible-container{
+   
+   padding: 4rem 4rem;
     display: flex;
     margin-bottom: 120px;
     
 }
 .color-done{
+    text-decoration: dashed;
     box-shadow: 10px 10px 40px gray;
     box-sizing: content-box; 
     padding: 20px 20px;
@@ -139,16 +147,25 @@ h3{
     display: flex;
     margin-bottom: 120px;
     padding: auto;
+   
+}
+.four9
+{
+    display: flex;
+    margin-bottom:120px ;
+    padding: auto;
+    padding-left: 15%;
 }
 .four0 {
-    padding-left: 20%;
-    width: 50%;
+    padding-left: 15%;
+    width: 40%;
     font-size: 20px;
+    
    }
 .four1 {
     margin-right: 100px ;
     margin-left: 80px;
-    width: 50%;
+    width: 30%;
     font-size: 20px;
    }
    
@@ -162,7 +179,7 @@ h3{
     background-image: linear-gradient(orange,tomato);
 }
 .half-width{
-    padding-left:  5%;
+   
     width: 50%;
    
 }
@@ -176,14 +193,25 @@ footer p{
     
 }
 .email{
-    background-color: rgb(206, 230, 222);
+    background-color: rgb(170, 170, 231);
    
     text-align: center;
     border-radius: 10px;
     box-sizing: border-box;
     padding: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    margin-top: 20px;
     width: 50%;
     margin-left: 330px;
   
+}
+.italic{
+font-family: fantasy;
+}
+.second2{
+    text-align: inline;
+    padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
 }
